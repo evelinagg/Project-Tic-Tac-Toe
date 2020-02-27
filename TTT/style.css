@@ -1,0 +1,26 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /*искаме да имаме 3x3 решетка като го настройваме да се повтаря (3, auto); */
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 3px #333333;
+    border: 4px solid #333333;
+    cursor: pointer;
+
+    line-height: 50px;
+    font-size: 60px;
+}
